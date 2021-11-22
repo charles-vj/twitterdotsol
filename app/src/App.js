@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="text-content">
+        <div class="header"><h1>Solana Twitter</h1></div>
+        <div class="secondary-text">Hey there! This is Charles. This is a wall of tweets made on the solana blockchain. Do remember to connect your wallet or else you won't be able to tweet. Tell me what's happening</div>
+      </div>
+      <div class="tweet">
+        <textarea placeholder="Wassup" name="" id="" cols="80" rows="8"></textarea>
+        <button>Submit</button>
+      </div>
     </div>
   );
 }
