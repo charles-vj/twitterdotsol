@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    font-family: 'Indie Flower', cursive;
+    color: var(--prtext);
+    margin-left: 3%;
+    font-size: 3rem;
+}
+
+.wallet {
+    height: 100%;
+    padding: 5px;
+    font-size: 1.4rem;
+    padding: 1rem;
+    line-height: 3rem;
+    margin-top: 2%;
+    margin-right: 2%;
+    border-radius: 30px;
+    box-shadow: none;
+    border: 2px solid var(--setext);
+    cursor: pointer;
+    color: var(--setext);
+    background-color: transparent;
+}
+
+.wallet:hover {
+    background-color: var(--prtext);
+    color: var(--bg);
+}
